@@ -1,0 +1,20 @@
+{
+    "projects": [
+            {
+            "id": "001",
+            "title": "Class Directory",
+            "description": "Full-stack app which accesses a database of educational courses and handles user authentication",
+            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"]
+        },{
+            "id": "002",
+            "title": "Class Directory",
+            "description": "Full-stack app which accesses a database of educational courses and handles user authentication",
+            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"]
+        },{
+            "id": "003",
+            "title": "Class Directory",
+            "description": "Full-stack app which accesses a database of educational courses and handles user authentication",
+            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"]
+        }
+    ]
+}

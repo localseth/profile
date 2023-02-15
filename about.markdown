@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<div markdown="1" class="profile container">
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Seth Missiaen
 
+Web Developer
 
-[jekyll-organization]: https://github.com/jekyll
+![Alt text](https://avatars.githubusercontent.com/u/97685638?v=4){:.profile .round}
+</div>
+
+<div markdown="1" class="container about">
+
+Hi, I'm Seth! I'm an easy-going midwesterner who loves the outdoors and cooking with cast iron. Since I was a teenager I've been interested in technology and web development, and somewhere along the line I became a musician as well. You'll likely find me playing small shows in central Iowa or photographing your friend's weddings. I love open source code and projects that are aimed at protecting users online and that encourage digital autonomy.
+
+Check out my [github](https://github.com/{{ site.github_username }}) or follow me on [Instagram](https://instagram.com/{{ site.instagram_username }}).
+
+I can't wait to be friends!
+</div>
