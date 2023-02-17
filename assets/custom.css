@@ -58,6 +58,11 @@ body {
 }
 
 /* fine styles */
+
+header.site-header {
+  border-top: none;
+}
+
 .post-title {
   border-bottom: 2px solid var(--accent-color);
   padding-bottom: 1rem;

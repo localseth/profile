@@ -13,7 +13,7 @@ Here are some of the projects I have built and some that are currently in develo
 <div class="project border">
 <div class="container">
 <h3>{{ project.title }}</h3>
-<img src="{{ site.url }}{{ project.thumb }}">
+<img src="{{ site.baseurl }}/{{ project.thumb }}">
 <p>{{ project.description }}</p>
 <ul>
 {% for item in project.technologies %}
