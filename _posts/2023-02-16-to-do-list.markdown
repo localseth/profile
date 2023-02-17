@@ -1,0 +1,7 @@
+# My Portfolio Web Page
+
+## To Do List
+- [ ] contact form
+- [ ] GitHub comments
+- [ ] theme toggle
+- [ ] different images for projects on a smaller screen

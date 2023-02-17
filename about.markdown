@@ -4,14 +4,16 @@ title: About
 permalink: /about/
 ---
 
+<div class="profile-wrapper">
 
-<div markdown="1" class="profile container">
+<div class="profile container border" markdown="1">
 
 ## Seth Missiaen
 
 Web Developer
 
 ![Alt text](https://avatars.githubusercontent.com/u/97685638?v=4){:.profile .round}
+
 </div>
 
 <div markdown="1" class="container about">
@@ -21,4 +23,7 @@ Hi, I'm Seth! I'm an easy-going midwesterner who loves the outdoors and cooking 
 Check out my [github](https://github.com/{{ site.github_username }}) or follow me on [Instagram](https://instagram.com/{{ site.instagram_username }}).
 
 I can't wait to be friends!
+
+</div>
+
 </div>

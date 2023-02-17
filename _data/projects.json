@@ -2,19 +2,28 @@
     "projects": [
             {
             "id": "001",
-            "title": "Class Directory",
+            "title": "Course Directory",
             "description": "Full-stack app which accesses a database of educational courses and handles user authentication",
-            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"]
+            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"],
+            "thumb": "assets/img/fullstack.png",
+            "url": "https://showcase.sethmissiaen.com",
+            "sourceUrl": "https://github.com/localseth/course-directory/tree/main"
         },{
             "id": "002",
-            "title": "Class Directory",
-            "description": "Full-stack app which accesses a database of educational courses and handles user authentication",
-            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"]
+            "title": "Generic Search Page",
+            "description": "Basic search page for content Inverted Tech Foundation content (currently in production)",
+            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js"],
+            "thumb": "assets/img/ons.png",
+            "url": "https://github.com/localseth/generic-search/tree/main/itf-search",
+            "sourceUrl": "https://github.com/localseth/generic-search/tree/main/itf-search"
         },{
             "id": "003",
-            "title": "Class Directory",
+            "title": "Interactive Form",
             "description": "Full-stack app which accesses a database of educational courses and handles user authentication",
-            "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"]
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "thumb": "assets/img/form.png",
+            "url": "https://localseth.github.io/interactive-form-project/",
+            "sourceUrl": "https://github.com/localseth/interactive-form-project/tree/main"
         }
     ]
 }
