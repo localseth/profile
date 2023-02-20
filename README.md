@@ -2,5 +2,6 @@
 
 ## To Do List
 - [ ] contact form
-- [x] GitHub comments
+- [ ] GitHub comments
 - [ ] theme toggle
+- [ ] search function

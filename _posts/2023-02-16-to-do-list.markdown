@@ -1,7 +1,9 @@
 # My Portfolio Web Page
+Welcome to my blog! This is my first post. I'm organizing my plans for this website in the list below. I mostly just want to have original content on this blog so that I can see how pages render.
 
 ## To Do List
 - [ ] contact form
 - [ ] GitHub comments
 - [ ] theme toggle
 - [ ] different images for projects on a smaller screen
+- [ ] set up RSS feed

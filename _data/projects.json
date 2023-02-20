@@ -7,23 +7,36 @@
             "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js", "Express.js"],
             "thumb": "assets/img/fullstack.png",
             "url": "https://showcase.sethmissiaen.com",
-            "sourceUrl": "https://github.com/localseth/course-directory/tree/main"
+            "sourceUrl": "https://github.com/localseth/course-directory/"
         },{
             "id": "002",
             "title": "Generic Search Page",
-            "description": "Basic search page for content Inverted Tech Foundation content (currently in production)",
+            "description": "Basic search page for content published by Inverted Tech Foundation software (currently in production)",
             "technologies": ["Javascript", "HTML", "CSS", "React", "Node.js"],
             "thumb": "assets/img/ons.png",
-            "url": "https://github.com/localseth/generic-search/tree/main/itf-search",
             "sourceUrl": "https://github.com/localseth/generic-search/tree/main/itf-search"
         },{
             "id": "003",
+            "title": "Photography Website",
+            "description": "Static business website for my phography business",
+            "technologies": ["Photoshop", "Lightroom", "Capture One", "HTML", "CSS", "SSL", "DNS", "SEO"],
+            "thumb": "assets/img/photography-website.png",
+            "url": "https://sethmissiaen.com/"
+        },{
+            "id": "004",
             "title": "Interactive Form",
             "description": "Full-stack app which accesses a database of educational courses and handles user authentication",
             "technologies": ["Javascript", "HTML", "CSS"],
             "thumb": "assets/img/form.png",
             "url": "https://localseth.github.io/interactive-form-project/",
-            "sourceUrl": "https://github.com/localseth/interactive-form-project/tree/main"
+            "sourceUrl": "https://github.com/localseth/interactive-form-project"
+        },{
+            "id": "005",
+            "title": "React Photo Gallery App",
+            "description": "Simple photo gallery app that accesses the flickr API to conduct a photo search",
+            "technologies": ["Javascript", "React", "fetch", "Axios", "HTML", "CSS"],
+            "thumb": "assets/img/react-photo-app.png",
+            "sourceUrl": "https://github.com/localseth/react-photo-gallery"
         }
     ]
 }
