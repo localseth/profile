@@ -53,5 +53,7 @@ I can't wait to be friends!
 <i class="devicon-markdown-original colored" title="markdown" alt="markdown"></i>
 <i class="devicon-wordpress-plain colored" title="wordpress" alt="wordpress"></i>
 </div>
+<p class="footer-text">Icons provided by <a href="https://devicon.dev">Devicon</a></p>
+<p class="footer-text footer-icon"><a href="https://devicon.dev"><i class="devicon-devicon-plain"></i></a></p>
 </div>
 </div>

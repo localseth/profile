@@ -11,6 +11,7 @@
   --main-font: "Roboto", sans-serif;
   --main-code-font: "Roboto Mono", monospace;
   --logo-font: "Roboto Condensed";
+  --secondary-text-color: rgb(193, 193, 193);
 }
 
 :root.light {
@@ -97,7 +98,7 @@ a.no-style div.project:hover {
 }
 
 i {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .round {
@@ -182,6 +183,28 @@ a.site-title::before {
   width: 50px;
 }
 
+.footer-text {
+  color: var(--secondary-text-color);
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.footer-text.footer-icon {
+  margin-top: 0.5rem;
+}
+
+.footer-icon a i {
+  font-size: 1.75rem;
+  color: var(--secondary-text-color);
+}
+
+.footer-icon a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
 /* a.site-title:first-child::first-letter {
   font-size: 2rem;
 } */
@@ -228,10 +251,11 @@ a.site-title::before {
   padding: 0rem;
   text-align: center;
   border-bottom: none;
+  margin-bottom: 1.5rem;
 }
 
 .project .container {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -261,6 +285,7 @@ a.site-title::before {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .skills i {
@@ -269,6 +294,7 @@ a.site-title::before {
 
 .skills.container {
   margin: 1rem 0rem;
+  align-items: center;
 }
 
 .flex-row ul {
