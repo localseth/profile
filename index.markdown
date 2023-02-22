@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 list_title: Blog Posts
-intro: "I'm Seth, a Web Developer, entrepreneur, and artist. Welcome to my Webiste! Here I will be sharing some of my favorite  professional projects as well as my personal blog and other work. Please take a look around!"
+intro: "I'm Seth, a web developer, entrepreneur, and artist. Welcome to my website! Here I will be sharing some of my favorite  professional projects, as well as my personal blog and other work. Please take a look around!"
 ---
 
 <!-- {% assign about-page = site.pages | where: "title", "About" | first %}
