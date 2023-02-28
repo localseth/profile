@@ -454,3 +454,18 @@ input:checked + .slider:before {
     align-items: center;
   }
 }
+
+html {
+  content: "";
+}
+
+@media (prefers-color-scheme: "light") {
+  html {
+    content: "light";
+  }
+}
+@media (prefers-color-scheme: "dark") {
+  html {
+    content: "dark";
+  }
+}
