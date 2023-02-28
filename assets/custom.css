@@ -239,6 +239,12 @@ a.site-title::before {
   padding: 1.5rem;
 }
 
+.home .container {
+  margin: 0px;
+  align-items: flex-start;
+  width: auto;
+}
+
 .profile.container {
   align-items: center;
   margin-left: 0px;
