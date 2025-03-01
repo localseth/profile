@@ -2,7 +2,7 @@ const prefersLightTheme = window.matchMedia('(prefers-color-scheme: light)').mat
 const currentTheme = () => sessionStorage.getItem('theme');
 const root = document.querySelector(':root');
 const themeSwitch = document.querySelector('.switch input');
-const iconLIst = document.querySelectorAll('.icon-list i');
+const iconList = document.querySelectorAll('.icon-list i');
 // const themeSwitcher = document.getElementById('theme-switcher');
 
 const defaultTheme = () => {
