@@ -22,7 +22,7 @@ permalink: /about/
 
 <div markdown="1" class="container about">
 
-Hi, I'm Seth Missiaen! I'm an easy-going midwesterner who loves the outdoors and cooking with cast iron. Since I was a teenager I've been interested in technology and web development, and somewhere along the line I became a musician as well. You'll likely find me playing small shows in central Iowa or photographing your friend's weddings. I love open source code and projects that are aimed at protecting users online and that encourage digital autonomy.
+Hi, I'm Seth Missiaen! I'm an easy-going Midwesterner who loves the outdoors and cooking with cast iron. Since I was a teenager I've been interested in technology and web development, and somewhere along the line I became a musician as well. You'll likely find me playing small shows in central Iowa or photographing your friend's weddings. I love open source code and projects that are aimed at protecting users online and that encourage digital autonomy.
 
 Check out my [github](https://github.com/{{ site.github_username }}) or follow me on [Instagram](https://instagram.com/{{ site.instagram_username }}).
 
