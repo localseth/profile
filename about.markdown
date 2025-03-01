@@ -53,7 +53,7 @@ I can't wait to be friends!
 <i class="devicon-ruby-plain colored" title="ruby" alt="ruby"></i>
 <i class="devicon-photoshop-plain colored" title="photoshop" alt="photoshop"></i>
 <i class="devicon-markdown-original colored" title="markdown" alt="markdown"></i>
-<i class="devicon-php-plain colored" title="PHP" alt="PHP">></i>
+<i class="devicon-php-plain colored" title="PHP" alt="PHP"></i>
 <i class="devicon-wordpress-plain colored" title="wordpress" alt="wordpress"></i>
 <i class="devicon-linux-plain colored" title="linux" alt="linux"></i>
 <i class="devicon-gimp-plain colored" title="gimp" alt="gimp"></i>
