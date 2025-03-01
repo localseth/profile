@@ -39,11 +39,11 @@ const themeSwitcher = () => {
         sessionStorage.removeItem('theme');
         sessionStorage.setItem('theme', 'light');
         root.classList.remove('dark');
-	iconList.classList.remove('colored');
+	iconList.forEach(i => i.classList.remove('colored'));
     } else {
         sessionStorage.removeItem('theme');
         sessionStorage.setItem('theme', 'dark');
         root.classList.add('dark');
-	iconList.classList.add('colored');
+	iconList.forEach(i => i.classList.add('colored'));
     }
 };
