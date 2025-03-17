@@ -312,6 +312,13 @@ a.site-title::before {
   flex-flow: row wrap;
   justify-content: center;
   margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.icon-list i {
+	width: 70px;
+	max-width: 100%;
+	text-align: center;
 }
 
 .skills i {
