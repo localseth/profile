@@ -16,9 +16,11 @@ const defaultTheme = () => {
 const initializeTheme = () => {
     if (currentTheme() === 'dark') {
         root.classList.add('dark');
+        iconList.forEach(i => i.classList.remove('colored'));
         themeSwitch.checked = true;
     } else if (root.classList.contains('dark')) {
         root.classList.remove('dark');
+        iconList.forEach(i => i.classList.add('colored'));
     }
 }
 
@@ -39,11 +41,11 @@ const themeSwitcher = () => {
         sessionStorage.removeItem('theme');
         sessionStorage.setItem('theme', 'light');
         root.classList.remove('dark');
-	iconList.forEach(i => i.classList.add('colored'));
+        iconList.forEach(i => i.classList.add('colored'));
     } else {
         sessionStorage.removeItem('theme');
         sessionStorage.setItem('theme', 'dark');
         root.classList.add('dark');
-	iconList.forEach(i => i.classList.remove('colored'));
+        iconList.forEach(i => i.classList.remove('colored'));
     }
 };
