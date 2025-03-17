@@ -26,7 +26,7 @@ Hi, I'm Seth Missiaen! I'm an easy-going Midwesterner who loves the outdoors and
 
 Check out my [github](https://github.com/{{ site.github_username }}) or follow me on [Instagram](https://instagram.com/{{ site.instagram_username }}).
 
-Since you probably don't know how to pronounce my last name, here's how it might show in a dictionary: mĭ-*SHŎN*
+Since you probably don't know how to pronounce my last name, here's the phonetic spelling: mĭ-*SHŎN*
 
 I can't wait to be friends!
 
