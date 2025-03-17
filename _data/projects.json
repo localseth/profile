@@ -16,13 +16,6 @@
             "thumb": "assets/img/ons.png",
             "sourceUrl": "https://github.com/localseth/generic-search/tree/main/itf-search"
         },{
-            "id": "003",
-            "title": "Photography Website",
-            "description": "Static business website for my phography business",
-            "technologies": ["Photoshop", "Lightroom", "Capture One", "HTML", "CSS", "SSL", "DNS", "SEO"],
-            "thumb": "assets/img/photography-website.png",
-            "url": "https://sethmissiaen.com/"
-        },{
             "id": "004",
             "title": "Interactive Form",
             "description": "Interactive sign-up form with custom front-end JavaScript used for validation to enhance user experience",

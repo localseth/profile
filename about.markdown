@@ -45,18 +45,18 @@ I can't wait to be friends!
 <i class="devicon-sequelize-plain colored" title="sequelize" alt="sequelize"></i>
 <i class="devicon-sqlite-plain colored" title="sqlite"  alt="sqlite"></i>
 <i class="devicon-nodejs-plain colored" title="nodejs" alt="nodejs"></i>
-<i class="devicon-amozonwebservices-plain colored" title="Amazon Web Services" alt="Amazon Web Services"></i>
+<i class="devicon-amazonwebservices-plain colored" title="Amazon Web Services" alt="Amazon Web Services"></i>
 <i class="devicon-git-plain colored" title="git" alt="git"></i>
 <i class="devicon-github-original-wordmark colored" title="git" alt="git"></i>
 <i class="devicon-vscode-plain colored" title="vscode" alt="vscode"></i>
 <i class="devicon-npm-original-wordmark colored" title="npm" alt="npm"></i>
 <i class="devicon-ruby-plain colored" title="ruby" alt="ruby"></i>
+<i class="devicon-gimp-plain colored" title="gimp" alt="gimp"></i>
 <i class="devicon-photoshop-plain colored" title="photoshop" alt="photoshop"></i>
 <i class="devicon-markdown-original colored" title="markdown" alt="markdown"></i>
 <i class="devicon-php-plain colored" title="PHP" alt="PHP"></i>
 <i class="devicon-wordpress-plain colored" title="wordpress" alt="wordpress"></i>
 <i class="devicon-linux-plain colored" title="linux" alt="linux"></i>
-<i class="devicon-gimp-plain colored" title="gimp" alt="gimp"></i>
 </div>
 <p class="footer-text">Icons provided by <a href="https://devicon.dev">Devicon</a></p>
 <p class="footer-text footer-icon"><a href="https://devicon.dev"><i class="devicon-devicon-plain"></i></a></p>
