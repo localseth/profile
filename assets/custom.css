@@ -14,6 +14,7 @@
   --logo-font: "Roboto Condensed";
   --secondary-text-color: rgb(193, 193, 193);
   --card-background: white;
+  --dark: #424242;
 }
 
 :root.light {
@@ -23,6 +24,7 @@
   --tag-text-color: whitesmoke;
   --main-btn-color: gray;
   --main-text-color: black;
+  --hover-color: #111111;
 }
 
 :root.dark {
@@ -35,6 +37,8 @@
   --main-text-color: whitesmoke;
   --title-color: var(var(--accent-color));
   --card-background: rgb(40, 40, 60);
+  --dark: var(--tag-text-color);
+  --hover-color: var(--main-text-color);
 }
 
 /* clear styles */
@@ -45,23 +49,33 @@ ul {
   padding: 0px;
 }
 
+a {
+  color: var(--accent-color);
+}
+a, a:hover {
+  transition: color 200ms ease-in-out;
+}
+a:hover {
+  color: var(--hover-color);
+}
+
 /* global style */
-:hover {
-  transition-duration: 200ms;
+:hover,
+:active,
+:focus {
+  transition: transform 200ms ease-in-out;
 }
 * {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-weight: 300;
-  -webkit-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
-  transition-duration: all 200ms linear;
 }
 
 body,
 nav.site-nav .page-link {
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
+  transition: transform 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
 }
 
 /* fine styles */
@@ -77,17 +91,28 @@ header.site-header {
 }
 
 a.site-title,
-a.site-title:visited {
+a.site-title:visited,
+a.sitepage-link,
+a.sitepage-link:visited {
   color: var(--title-color);
+  transition: transform 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
 }
 
 a.site-title:hover,
-.page-link:hover {
+.page-link:hover,
+a.site-title:focus,
+.page-link:focus,
+a.site-title:active,
+.page-link:active {
+  --main-text-color: var(--accent-color);
   text-decoration: none;
-  margin-top: 0.25rem;
-  margin-bottom: -0.25rem;
-  /* letter-spacing: 0.0125rem; */
-  /* rotate: 1deg; */
+  color: var(--accent-color);
+  /* transform: translatey(0.25rem); */
+}
+
+.site-nav {
+  background-color: var(--main-bg-color);
 }
 
 .post-title {
@@ -316,9 +341,9 @@ a.site-title::before {
 }
 
 .icon-list i {
-	width: 70px;
-	max-width: 100%;
-	text-align: center;
+  width: 70px;
+  max-width: 100%;
+  text-align: center;
 }
 
 .skills i {
@@ -387,6 +412,10 @@ div.buttons {
 a.unavailable {
   pointer-events: none;
   opacity: 50%;
+}
+
+.svg-icon {
+  fill: var(--secondary-text-color);
 }
 
 /* .post-content {
@@ -465,6 +494,12 @@ input:checked + .slider:before {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+  }
+}
+
+@media sceen and (max-width: 600px) {
+  .site-nav .menu-icon > svg {
+    fill: var(--dark);
   }
 }
 
