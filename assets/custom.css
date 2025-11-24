@@ -49,6 +49,12 @@ ul {
   padding: 0px;
 }
 
+a {
+  color: var(--accent-color);
+}
+a, a:hover {
+  transition: color 200ms ease-in-out;
+}
 a:hover {
   color: var(--hover-color);
 }
@@ -69,6 +75,7 @@ nav.site-nav .page-link {
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
   transition: transform 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
 }
 
 /* fine styles */
@@ -89,6 +96,7 @@ a.sitepage-link,
 a.sitepage-link:visited {
   color: var(--title-color);
   transition: transform 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
 }
 
 a.site-title:hover,
@@ -97,8 +105,10 @@ a.site-title:focus,
 .page-link:focus,
 a.site-title:active,
 .page-link:active {
+  --main-text-color: var(--accent-color);
   text-decoration: none;
-  transform: translatey(0.25rem);
+  color: var(--accent-color);
+  /* transform: translatey(0.25rem); */
 }
 
 .site-nav {
